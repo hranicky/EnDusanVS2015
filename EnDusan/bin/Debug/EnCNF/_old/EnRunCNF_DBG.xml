@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnCNFRun>
+<Polozka NazevPolozky="DateEditEditace" Hodnota="2015.12.16">1</Polozka>
+<Polozka NazevPolozky="PocetDatRadku" Hodnota="10">2</Polozka>
+<Polozka NazevPolozky="PathEnDATA" Hodnota="F:\HOVNO">3</Polozka>
+<Polozka NazevPolozky="PathEnCNF" Hodnota="F:\HOFNO\EnRunCNF.xml">4</Polozka>
+</EnCNFRun>

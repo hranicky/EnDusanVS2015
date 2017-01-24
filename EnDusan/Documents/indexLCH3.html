@@ -1,0 +1,205 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <title> hhhhhhhhhhhhhhhhh  </title> 
+<script type="text/javascript">
+startList = function() {
+if (document.all&&document.getElementById) {
+navRoot = document.getElementById("nav");
+for (i=0; i<navRoot.childNodes.length; i++) {
+node = navRoot.childNodes[i];
+if (node.nodeName=="LI") {
+node.onmouseover=function() {
+this.className+=" over";
+  }
+  node.onmouseout=function() {
+  this.className=this.className.replace(" over", "");
+   }
+   }
+  }
+ }
+}
+window.onload=startList;
+
+</script>
+<style type="text/css">
+/* CSS Document */
+
+html,body {margin:0;padding:0}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin:17px 0;
+	color: #000000;
+	background-color: #ffffff;
+	text-align:center;/* centre for ie*/
+	font-size:12px;
+}
+p {margin:0 0 1em 0;padding:0}
+#outer {
+	width:780px;
+	margin-left:auto;/* centre for compliant browsers */
+	margin-right:auto;/* centre etc */
+	text-align:left;
+	position:relative;
+}
+ul#nav{
+	margin:0;
+	padding:0;
+	list-style:none;
+	width:780px;
+	height:20px;
+}
+ul#nav li {
+	height:20px;
+	width:auto;
+	display:inline;
+	margin:0;
+	padding:0;
+	text-align:left;
+}
+
+ul#nav li a{
+	height:20px;
+	width:auto;
+	text-decoration:none;
+	color:#666666;
+	padding:0 15px;
+	border-right:1px solid #cccccc;
+}
+
+#outer ul#nav li a.end	{border-right:0px solid #000;}/*remove border from last mainlist */
+
+ul#nav li a:hover {color:#cccccc}
+/* drop down styling */
+ul#nav ul {
+	position:absolute;
+	top:auto;
+	width:780px;
+	margin:0;
+	padding:0;
+	list-style:none;
+	overflow:visible;
+	left:-999em;
+	height:20px;
+	line-height:20px;	
+	z-index:2;
+}
+ul#nav li.current {color:white;}
+ul#nav li.current a {color:pink;}
+ul#nav li.current a:hover {color:#cccccc;}
+
+ul#nav li.current ul{left:0;z-index:1;top:auto;}/* display the submenu for the current page in case js is disabled*/
+
+ul#nav ul li{
+	position:relative;
+	display:inline;
+	width:auto;
+	text-align:left;
+}
+#outer ul#nav ul li a{
+	color:#ffffff;
+	width:auto;
+	height:auto;
+	display:inline;
+	padding:0 10px;
+	border-right:1px solid #ffffff;
+}
+/* mac hide \*/
+* html ul#nav ul li,
+#outer ul#nav ul li a
+{height:1%}/* for ie5*/
+/* end hide*/
+
+#outer ul#nav ul li a.final{border-right:0px solid #000;}/*remove border from last sublist */
+
+#outer ul#nav ul li a:hover{color: #FF3399;}/*subnav list text change on hover*/
+
+ul#nav li:hover ul, ul#nav li.over ul { left:0;background:green; } /* The magic */
+
+/* this subnav just sets the background onto which the subnav is placed */
+#subnavbg{
+	margin:0px;
+	width:780px;
+	height:20px;
+	line-height:20px;
+	background:pink;
+}
+
+p{	
+	width:35em;
+	padding-top:25px;
+	margin-left:auto;
+	margin-right:auto;
+}
+/* mac styles \*//*/
+ul#nav ul {
+	left:0;
+	display:none;
+}
+ul#nav li.current ul{display:block;z-index:1;}
+ul#nav li:hover ul, ul#nav li.over ul { display:block;background:silver; } 
+
+
+/* end mac styles */
+</style>
+
+</head>
+<body>
+<div id="outer"> 
+  <ul id="nav">
+    <li class="current"><a href="#">Home</a> 
+      <ul>
+        <li><a class="final" href="#"></a></li>
+      </ul>
+    </li>
+    <li><a href="#">Our Journey</a> 
+      <ul>
+        <li><a class="final" href="#"></a></li>
+      </ul>
+    </li>
+    <li><a href="#">Fashion</a> 
+      <ul>
+        <li><a href="#">Rock Chick</a></li>
+        <li><a href="#">Glamour Puss</a></li>
+        <li><a href="#">Sassy Girl</a></li>
+        <li><a href="#">Princess</a></li>
+        <li><a class="final" href="#">Gypsy</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Fun</a> 
+      <ul>
+        <li><a href="#">Promotions</a></li>
+        <li><a href="#">Competitions</a></li>
+        <li><a class="final" href="#">VIP Member</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Careers</a> 
+      <ul>
+        <li><a href="#">Career Interviews</a></li>
+	    <li><a href="#">Company Values</a></li>
+        <li><a class="final" href="#">Available Positions</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Gift Vouchers</a> 
+      <ul>
+        <li><a class="final" href="#"></a></li>
+      </ul>
+    </li>
+    <li><a href="#">Find A Store</a> 
+      <ul>
+        <li><a class="final" href="#"></a></li>
+      </ul>
+    </li>	
+    <li><a href="#" class="end">Contact Us</a> 
+      <ul>
+        <li><a class="final" href="#"></a></li>
+        <!-- for blanking out when no submenu is defined -->
+      </ul>
+    </li>
+  </ul>
+  <div id="subnavbg"></div>
+</div>
+  </body>
+</html>

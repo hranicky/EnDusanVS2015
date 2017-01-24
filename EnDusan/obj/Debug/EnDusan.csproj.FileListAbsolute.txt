@@ -1,0 +1,60 @@
+C:\Alexandria\Devel\CS\EnDusan\EnDusan\obj\Debug\ResolveAssemblyReference.cache
+C:\Alexandria\Devel\CS\EnDusan\EnDusan\obj\Debug\EnDusan.EnDusanMasterForm.resources
+C:\Alexandria\Devel\CS\EnDusan\EnDusan\obj\Debug\GenerateResource.read.1.tlog
+C:\Alexandria\Devel\CS\EnDusan\EnDusan\obj\Debug\GenerateResource.write.1.tlog
+C:\Alexandria\Devel\CS\EnDusan\EnDusan\bin\Debug\EnDusan.exe
+C:\Alexandria\Devel\CS\EnDusan\EnDusan\bin\Debug\EnDusan.pdb
+C:\Alexandria\Devel\CS\EnDusan\EnDusan\obj\Debug\EnDusan.exe
+C:\Alexandria\Devel\CS\EnDusan\EnDusan\obj\Debug\EnDusan.pdb
+C:\Alexandria\Devel\CS\EnDusan\EnDusan\obj\Debug\EnDusan.ConfigForm.resources
+F:\Alexandria\Devel\CS\EnDusan\EnDusan\obj\Debug\EnDusan.csprojResolveAssemblyReference.cache
+F:\Alexandria\Devel\CS\EnDusan\EnDusan\obj\Debug\EnDusan.csproj.GenerateResource.Cache
+F:\Alexandria\Devel\CS\EnDusan\EnDusan\obj\Debug\EnDusan.exe
+F:\Alexandria\Devel\CS\EnDusan\EnDusan\obj\Debug\EnDusan.pdb
+F:\Alexandria\Devel\CS\EnDusan\EnDusan\bin\Debug\EnDusan.exe
+F:\Alexandria\Devel\CS\EnDusan\EnDusan\bin\Debug\EnDusan.pdb
+C:\Documents and Settings\lchmela\My Documents\Dropbox\CS\EnDusan\EnDusan\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\lchmela\My Documents\Dropbox\CS\EnDusan\EnDusan\obj\Debug\EnDusan.ConfigForm.resources
+C:\Documents and Settings\lchmela\My Documents\Dropbox\CS\EnDusan\EnDusan\obj\Debug\EnDusan.EnConfigRun.resources
+C:\Documents and Settings\lchmela\My Documents\Dropbox\CS\EnDusan\EnDusan\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\lchmela\My Documents\Dropbox\CS\EnDusan\EnDusan\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\lchmela\My Documents\Dropbox\CS\EnDusan\EnDusan\bin\Debug\EnDusan.exe
+C:\Documents and Settings\lchmela\My Documents\Dropbox\CS\EnDusan\EnDusan\bin\Debug\EnDusan.pdb
+C:\Documents and Settings\lchmela\My Documents\Dropbox\CS\EnDusan\EnDusan\obj\Debug\EnDusan.exe
+C:\Documents and Settings\lchmela\My Documents\Dropbox\CS\EnDusan\EnDusan\obj\Debug\EnDusan.pdb
+C:\Documents and Settings\lchmela\My Documents\Dropbox\CS\EnDusan\EnDusan\obj\Debug\EnDusan.SaveProjectForm.resources
+C:\Documents and Settings\lchmela\My Documents\Dropbox\CS\EnDusan\EnDusan\obj\Debug\EnDusan.ExportProjectRTFForm.resources
+C:\Documents and Settings\lchmela\My Documents\Dropbox\CS\EnDusan\EnDusan\obj\Debug\EnDusan.OtevritProjektXML.resources
+C:\Users\chmelal\Dropbox\PRG\CS\EnDusan\EnDusan\obj\Debug\EnDusan.csprojResolveAssemblyReference.cache
+C:\Users\chmelal\Dropbox\PRG\CS\EnDusan\EnDusan\obj\Debug\EnDusan.ConfigForm.resources
+C:\Users\chmelal\Dropbox\PRG\CS\EnDusan\EnDusan\obj\Debug\EnDusan.EnConfigRun.resources
+C:\Users\chmelal\Dropbox\PRG\CS\EnDusan\EnDusan\obj\Debug\EnDusan.ExportProjectRTFForm.resources
+C:\Users\chmelal\Dropbox\PRG\CS\EnDusan\EnDusan\obj\Debug\EnDusan.OtevritProjektXML.resources
+C:\Users\chmelal\Dropbox\PRG\CS\EnDusan\EnDusan\obj\Debug\EnDusan.SaveProjectForm.resources
+C:\Users\chmelal\Dropbox\PRG\CS\EnDusan\EnDusan\obj\Debug\EnDusan.csproj.GenerateResource.Cache
+C:\Users\chmelal\Dropbox\PRG\CS\EnDusan\EnDusan\obj\Debug\EnDusan.exe
+C:\Users\chmelal\Dropbox\PRG\CS\EnDusan\EnDusan\bin\Debug\EnDusan.exe
+C:\Users\chmelal\Dropbox\PRG\CS\EnDusan\EnDusan\bin\Debug\EnDusan.pdb
+C:\Users\chmelal\Dropbox\PRG\CS\EnDusan\EnDusan\obj\Debug\EnDusan.pdb
+F:\Alexandria\Devel\CS\EnDusan\EnDusan\obj\Debug\EnDusan.EnConfigForm.resources
+F:\Alexandria\Devel\CS\EnDusan\EnDusan\obj\Debug\EnDusan.EnConfigRun.resources
+F:\Alexandria\Devel\CS\EnDusan\EnDusan\obj\Debug\EnDusan.ExportProjectRTFForm.resources
+F:\Alexandria\Devel\CS\EnDusan\EnDusan\obj\Debug\EnDusan.OtevritProjektXML.resources
+F:\Alexandria\Devel\CS\EnDusan\EnDusan\obj\Debug\EnDusan.SaveProjectForm.resources
+F:\Alexandria\Devel\CS\EnDusan\EnDusan\obj\Debug\EnDusan.AboutBox.resources
+F:\Alexandria\Devel\CS\EnDusanVS2015\EnDusan\obj\Debug\EnDusan.exe
+F:\Alexandria\Devel\CS\EnDusanVS2015\EnDusan\obj\Debug\EnDusan.pdb
+F:\Alexandria\Devel\CS\EnDusanVS2015\EnDusan\bin\Debug\EnDusan.exe
+F:\Alexandria\Devel\CS\EnDusanVS2015\EnDusan\bin\Debug\EnDusan.pdb
+F:\Alexandria\Devel\CS\EnDusanVS2015\EnDusan\obj\Debug\EnDusan.csprojResolveAssemblyReference.cache
+F:\Alexandria\Devel\CS\EnDusanVS2015\EnDusan\obj\Debug\EnDusan.AboutBox.resources
+F:\Alexandria\Devel\CS\EnDusanVS2015\EnDusan\obj\Debug\EnDusan.EnConfigForm.resources
+F:\Alexandria\Devel\CS\EnDusanVS2015\EnDusan\obj\Debug\EnDusan.EnDusanMasterForm.resources
+F:\Alexandria\Devel\CS\EnDusanVS2015\EnDusan\obj\Debug\EnDusan.ExportProjectRTFForm.resources
+F:\Alexandria\Devel\CS\EnDusanVS2015\EnDusan\obj\Debug\EnDusan.OtevritProjektXML.resources
+F:\Alexandria\Devel\CS\EnDusanVS2015\EnDusan\obj\Debug\EnDusan.SaveProjectForm.resources
+F:\Alexandria\Devel\CS\EnDusanVS2015\EnDusan\obj\Debug\EnDusan.csproj.GenerateResource.Cache
+F:\Alexandria\Devel\CS\EnDusanVS2015\EnDusan\obj\Debug\EnDusan.SaveProjectXMLForm.resources
+F:\Alexandria\Devel\CS\EnDusanVS2015\EnDusan\bin\Debug\itextsharp.dll
+F:\Alexandria\Devel\CS\EnDusanVS2015\EnDusan\obj\Debug\EnDusan.Resource.resources
+F:\Alexandria\Devel\CS\EnDusanVS2015\EnDusan\obj\Debug\EnDusan.PDFForm.resources

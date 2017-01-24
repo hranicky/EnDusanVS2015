@@ -1,0 +1,7 @@
+Okno na vnitøním líci sendvièové stìny (nepøerušená izolace)
+NONChangeable
+Okna ve stìnì (ISO 14683)
+0.40
+0.40
+0.40
+Stìna (U=0.343 W/m2K) je sendvièová (tepelná izolace je uvnitø stìny). Okno je umístìno pøi vnitøním líci stìny. Tepelná izolace ve stìnì není pøerušená. Detail je pøevzat z ÈSN EN ISO 14683 (2008). Hodnoty liniových korekcí lze použít tehdy, pokud je reálný detail shodný s katalogovým nebo pokud je z tepelnì technického hlediska výhodnìjší.

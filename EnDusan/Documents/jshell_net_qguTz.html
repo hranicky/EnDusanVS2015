@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+
+  
+  
+
+  
+  
+  
+
+  
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.js"></script>
+
+  
+
+  
+
+  
+
+  
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+  
+
+  
+
+  <style type="text/css">
+    #top_navigation {
+	width: 1248px;
+	margin: 0 auto;
+	position: relative;
+	text-transform: uppercase;
+	font-family: "Rounded Font", sans-serif;
+	font-size: 23px;
+}
+#top_navigation ul ul {
+	display: none;
+}
+#top_navigation ul {
+	padding-left: 0;
+}
+#top_navigation ul li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 312px;
+	height: 64px;
+	line-height: 64px;
+	font-size: 20px;
+	list-style: none;
+}
+#top_navigation ul li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #eb1f10;
+	background-color: #FFF;
+}
+#top_navigation ul li.selected_menu_item a {
+	background-color: #eb1f10;
+	color: #FFF;
+}
+#top_navigation ul li a:hover {
+	background-color: #eb1f10;
+	color: #FFF;
+}
+#top_navigation li li {
+	height: 42px;
+	line-height: 42px;
+	border-top: #eb1f10 1px solid;
+}
+  </style>
+
+  <title></title>
+
+  
+    
+
+
+
+
+<script type='text/javascript'>//<![CDATA[
+$(window).load(function(){
+$(document).ready(function () {
+	var $nav = $('#top_navigation > ul > li');
+	$nav.hover(
+		function() {
+			$('ul', this).stop(true, true).slideDown('fast');
+		},
+		function() {
+			$('ul', this).slideUp('fast');
+		}
+	);
+});
+});//]]> 
+
+</script>
+
+  
+</head>
+
+<body>
+  <h1> from view-source:http://fiddle.jshell.net/qguTz/show/light/# </h1>
+  <body bgcolor="black">   
+    <div id="top_navigation">
+		<ul>
+			<li><a href="#">item1</a></li>
+			<li><a href="#">item2</a>
+				<ul class="submenu">
+					<li><a href="#">sub1</a></li>
+					<li><a href="#">sub2</a></li>
+					<li class="selected_menu_item"><a href="#">sub3</a></li>
+				</ul>
+			</li>
+			<li><a href="#">item3</a></li>
+			<li><a href="#">item4</a></li>
+		</ul>
+	</div>
+</body>
+  
+</body>
+
+</html>
+

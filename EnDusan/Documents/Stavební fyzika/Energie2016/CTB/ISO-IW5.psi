@@ -1,0 +1,7 @@
+Styk sendvièové obvodové stìny a pøíèky (nepøerušená izolace)
+NONChangeable
+Styk stìny a pøíèky (ISO 14683)
+0.00
+0.10
+0.00
+Obvodová stìna (U=0.343 W/m2K) je sendvièová (tepelná izolace je uvnitø stìny). Pøíèka nepøerušuje tepelnou izolaci. Detail je pøevzat z ÈSN EN ISO 14683 (2008). Hodnoty liniových korekcí lze použít tehdy, pokud je reálný detail shodný s katalogovým nebo pokud je z tepelnì technického hlediska výhodnìjší.

@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><EnCNFRun><Polozka NazevPolozky="DateEditEditace" Hodnota="2015.12.18">1</Polozka><Polozka NazevPolozky="PocetDatRadku" Hodnota="10">2</Polozka><Polozka NazevPolozky="PathEnDATA" Hodnota="F:\Alexandria\Devel\CS\EnDusan\EnDusan\bin\Debug\EnData\">3</Polozka><Polozka NazevPolozky="PathEnCNF" Hodnota="\EnCNF\">4</Polozka></EnCNFRun>

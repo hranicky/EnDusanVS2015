@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnDusan", "EnDusan\EnDusan.csproj", "{BEF62000-BB1F-49E1-9593-725F7348BDC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEF62000-BB1F-49E1-9593-725F7348BDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF62000-BB1F-49E1-9593-725F7348BDC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF62000-BB1F-49E1-9593-725F7348BDC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF62000-BB1F-49E1-9593-725F7348BDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

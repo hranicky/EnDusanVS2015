@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{BEF62000-BB1F-49E1-9593-725F7348BDC4}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EnDusan</RootNamespace>
+    <AssemblyName>EnDusan</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp, Version=5.0.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\iText_5\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnConfigForm.Designer.cs">
+      <DependentUpon>EnConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnDusanMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnDusanMasterForm.Designer.cs">
+      <DependentUpon>EnDusanMasterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportProjectRTFForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportProjectRTFForm.Designer.cs">
+      <DependentUpon>ExportProjectRTFForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportSerializDef.cs" />
+    <Compile Include="ITextSharpA4PDFBase.cs" />
+    <Compile Include="OAplikaciForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OAplikaciForm.Designer.cs">
+      <DependentUpon>OAplikaciForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtevritProjektXML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtevritProjektXML.Designer.cs">
+      <DependentUpon>OtevritProjektXML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PDFForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PDFForm.Designer.cs">
+      <DependentUpon>PDFForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SaveProjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveProjectForm.Designer.cs">
+      <DependentUpon>SaveProjectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaveProjectXMLForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveProjectXMLForm.Designer.cs">
+      <DependentUpon>SaveProjectXMLForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnConfigForm.resx">
+      <DependentUpon>EnConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnDusanMasterForm.resx">
+      <DependentUpon>EnDusanMasterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportProjectRTFForm.resx">
+      <DependentUpon>ExportProjectRTFForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtevritProjektXML.resx">
+      <DependentUpon>OtevritProjektXML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PDFForm.resx">
+      <DependentUpon>PDFForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveProjectForm.resx">
+      <DependentUpon>SaveProjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveProjectXMLForm.resx">
+      <DependentUpon>SaveProjectXMLForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\PDF\Template\" />
+    <Folder Include="Lib\iText_5\" />
+    <Folder Include="Lib\iText_7\" />
+    <Folder Include="System\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Documents\c# - Serilaization xml datagrid_textbox - Stack Overflow.pdf" />
+    <None Include="Documents\ENDusan.rtf" />
+    <None Include="Documents\Notes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documents\drahotuse.jpg" />
+    <Content Include="Images\RosettaStone.jpg" />
+    <None Include="Resources\RosettaStone.bmp" />
+    <None Include="Images\Anonymous_C.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
